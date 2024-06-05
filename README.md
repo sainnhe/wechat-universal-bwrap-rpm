@@ -6,8 +6,7 @@
 
 ## 从 COPR 安装
 
-- `sudo dnf copr enable sainnhe/wechat-universal-bwrap `
-- `sudo dnf install wechat-universal-bwrap`
+!!!为了规避潜在的法律问题，从 COPR 安装的方式已不再提供。
 
 ## 从源代码构建
 
