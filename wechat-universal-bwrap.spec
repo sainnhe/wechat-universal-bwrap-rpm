@@ -24,8 +24,6 @@ BuildRequires:  at-spi2-core-devel
 BuildRequires:  libXcomposite-devel
 BuildRequires:  libxkbcommon-x11-devel
 BuildRequires:  libXrandr-devel
-BuildRequires:  mesa-libGL-devel
-BuildRequires:  nss-devel
 BuildRequires:  pango-devel
 BuildRequires:  xcb-util-image-devel
 BuildRequires:  xcb-util-keysyms-devel
