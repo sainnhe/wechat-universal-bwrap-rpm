@@ -1,8 +1,13 @@
-## Fedora Linux 版微信
+## 介绍
 
 **本项目魔改自 [AUR - wechat-universal-bwrap](https://aur.archlinux.org/packages/wechat-universal-bwrap)**，常见问题请先参考这个项目的主页。
 
 目前支持 `x86_64` 和 `aarch64` 两种架构。
+
+## 从 COPR 安装
+
+- `sudo dnf copr enable sainnhe/wechat-universal-bwrap `
+- `sudo dnf install wechat-universal-bwrap`
 
 ## 从源代码构建
 
