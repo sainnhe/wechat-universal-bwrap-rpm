@@ -9,6 +9,7 @@
 - `sudo dnf install @development-tools fedora-packager rpmdevtools`
 - `sudo usermod -a -G mock $USER` 然后注销并重新登录用户
 - 克隆这个项目并 cd 到项目目录
+- `./download-deb.sh`
 - `mock --init`
 - `mock --buildsrpm --spec wechat-universal-bwrap.spec --sources src`
 - `cp /var/lib/mock/[YOUR_OS]/result/wechat-universal-bwrap-*.src.rpm .`

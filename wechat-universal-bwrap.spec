@@ -14,7 +14,8 @@ Source0:        wechat-universal.sh
 Source1:        wechat-universal.desktop
 Source2:        libuosdevicea.c
 Source3:        fake_dde-file-manager
-Source4:        wechat.deb
+Source4:        wechat-x86_64.deb
+Source5:        wechat-aarch64.deb
 
 BuildRequires:  gcc
 BuildRequires:  bsdtar
@@ -61,7 +62,7 @@ gcc %{optflags} -fPIC -shared %{_lib_uos}.c -o %{_lib_uos}.so
 echo 'Popupating pkgdir with data from wechat-universal deb file...'
 mkdir tmp
 cd tmp
-bsdtar -xf ../wechat.deb
+bsdtar -xf ../wechat-$(uname -m).deb
 tar xvf data.tar.xz
 mkdir -p %{buildroot}/opt
 mv opt/apps/com.tencent.wechat/files %{buildroot}/opt/%{_pkgname}
